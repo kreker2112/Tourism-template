@@ -1,0 +1,79 @@
+.button {
+  height: 72px;
+
+  background: #7b61ff;
+  border-radius: 12px;
+
+  color: #fff;
+
+  transition: background-color 0.2s ease-in;
+
+  font-size: 0;
+}
+
+.button--huge {
+  padding: 24px;
+  font-size: 18px;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .button--huge {
+    padding: 12px !important;
+    font-size: 16px !important;
+  }
+}
+
+.header__icon-global {
+  width: 22px;
+  height: 22px;
+}
+
+.button:hover {
+  background-color: #6344ff;
+}
+
+.button--search {
+  width: 60px;
+  height: 60px;
+  padding: 18px;
+}
+
+/* Button More */
+
+.arrow-more {
+  width: 16px;
+  height: 16px;
+}
+
+.button-more {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  padding: 10px;
+  height: 44px;
+  background: #f6f4ff;
+  border-radius: 12px;
+
+  font-size: 16px;
+  color: #5243c2;
+
+  transition: background-color 0.2s ease-in;
+}
+
+.button-more:hover {
+  background: #dcd8f1;
+}
+
+/* Button Subscribe */
+
+.button--subscribe {
+  width: 72px;
+  height: 72px;
+  padding: 20px;
+}
